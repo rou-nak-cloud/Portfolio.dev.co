@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
      <div className='body bg-[#020617] text-[#d1d5db]'>
-        <section>
+        <section id='Homepage'>
           <Navbar />
         </section>
         <section></section>

@@ -6,6 +6,11 @@ import github from './github-white.png'
 import linkedIn from './linkedIn.png'
 
 export const navLogos = [
+    {
+    id: "github",
+    icon: github,
+    link: "https://github.com/yourusername",
+  },
   {
     id: "facebook",
     icon: facebook,
@@ -22,13 +27,16 @@ export const navLogos = [
 //     link: "https://twitter.com/yourprofile",
 //   },
   {
-    id: "github",
-    icon: github,
-    link: "https://github.com/yourusername",
-  },
-  {
     id: "linkedIn",
     icon: linkedIn,
     link: "https://linkedin.com/in/yourprofile",
   },
 ];
+
+export const sideLinks = [
+    "Homepage",
+    "Education",
+    "Projects",
+    "Contact",
+    "AboutMe"
+]
