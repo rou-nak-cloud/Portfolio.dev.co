@@ -7,10 +7,16 @@ import linkedIn from './linkedIn.png'
 
 import heroPng from './hero.png'
 import scroll from './scroll.png'
+import mountains from './mountains.png'
+import planets from './planets.png'
+import stars from './stars.png'
 
 const assets = {
   heroPng,
   scroll,
+  mountains,
+  planets,
+  stars,
 }
 export default assets
 
