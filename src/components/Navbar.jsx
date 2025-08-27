@@ -63,8 +63,8 @@ const Navbar = () => {
             drag
             dragConstraints={constraints}
             whileDrag={{scale:0.8}}
-          className="font-bold text-base sm:text-sm md:text-sm lg:text-md cursor-grab select-none">
-            Rounak <span className="text-[#FF4040] text-lg">Bakshi.</span>
+          className="font-bold text-base sm:text-sm md:text-sm lg:text-md cursor-grab select-none z-99">
+            <span className="text-[#FF4040] text-lg">&bakshi.</span>
           </motion.h3>
 
           <div className="social flex items-center gap-2 sm:gap-3 md:gap-4">

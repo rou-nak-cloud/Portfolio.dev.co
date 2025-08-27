@@ -5,6 +5,15 @@ import twitter from './x.png'
 import github from './github-white.png'
 import linkedIn from './linkedIn.png'
 
+import heroPng from './hero.png'
+import scroll from './scroll.png'
+
+const assets = {
+  heroPng,
+  scroll,
+}
+export default assets
+
 export const navLogos = [
     {
     id: "github",
