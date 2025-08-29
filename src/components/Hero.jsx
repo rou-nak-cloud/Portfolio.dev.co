@@ -79,7 +79,7 @@ const Hero = () => {
 
   <motion.div
     variants={bigTextVariants} initial="initial" animate="animate"
-    className='slidingText absolute w-full md:w-1/2 font-semibold text-[15vh] sm:text-[25vh] md:text-[35vh] lg:text-[50vh] bottom-[-30px] md:bottom-[-80px] whitespace-nowrap opacity-10 select-none text-center md:text-left'>
+    className='slidingText absolute w-full md:w-1/2 font-semibold text-[15vh] sm:text-[25vh] md:text-[35vh] lg:text-[50vh] bottom-[-7px] md:bottom-[-100px] whitespace-nowrap opacity-10 select-none text-center md:text-left'>
     Full Stack Coder <span className=''>&</span> Calisthenic Athlete
   </motion.div>
 
