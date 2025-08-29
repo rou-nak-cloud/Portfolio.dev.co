@@ -55,3 +55,35 @@ export const sideLinks = [
     "Contact",
     "AboutMe"
 ]
+
+export const educations = [
+  {
+    title: "Madhyamik Examination (Matriculation)",
+    institution: "West Bengal Board of Secondary Education",
+    date: "2019",
+    contents: [
+      "Completed secondary education with a strong foundation in Science, Mathematics, and English.",
+      "Participated in school-level science exhibitions and extracurricular activities."
+    ]
+  },
+  {
+    title: "Higher Secondary Examination (HS)",
+    institution: "West Bengal Council of Higher Secondary Education",
+    date: "2019-2021",
+    contents: [
+      "Specialized in Science stream with subjects including Physics, Chemistry, Mathematics. Fall in love for Electronics as well as in Computer Science from this period.",
+      "Engaged in coding workshops during this period."
+    ]
+  },
+  {
+    title: "Bachelor of Technology (B.Tech) in Electronics and Telecommunication Engineering",
+    institution: "Guru Nanak Institute of Technology, Kolkata",
+    date: "2021-Present",
+    contents: [
+      "Pursuing a degree in Electronics and Telecommunication Engineering with coursework in Data Structures, Algorithms, Web Development, and Database Management System",
+      "Worked on personal and academic projects using technologies like React, Node.js, MongoDB, and Three.js.",
+      "Learn various frontend technologies to make better workflow with Motion, Aceternity ui, Daisy ui, and Magic ui.",
+      "Currently participating in hackathons, coding contests to enhance practical skills."
+    ]
+  }
+];

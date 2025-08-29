@@ -63,7 +63,7 @@ const Navbar = () => {
             drag
             dragConstraints={constraints}
             whileDrag={{scale:0.8}}
-          className="font-bold text-base sm:text-sm md:text-sm lg:text-md cursor-grab select-none z-99">
+          className="font-bold text-base sm:text-sm md:text-sm lg:text-md cursor-grab select-none z-999">
             <span className="text-[#FF4040] text-lg">&bakshi.</span>
           </motion.h3>
 

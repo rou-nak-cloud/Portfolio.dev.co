@@ -55,7 +55,7 @@ const Sidebar = () => {
      className='sidebar flex flex-col items-center justify-center text-black'>
         <motion.div 
         variants={sideVariants}
-        className='bg fixed top-10 left-1 sm:top-0 sm:left-0 bottom-0 w-[70%] sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[450px] bg-white/90 sm:bg-white z-[12]'>
+        className='bg fixed top-10 left-1 sm:top-0 sm:left-0 bottom-0 w-[70%] sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[450px] bg-white/90 sm:bg-white z-[990]'>
             {/* links */}
             <motion.div 
             variants={linkVariants}
@@ -73,7 +73,7 @@ const Sidebar = () => {
         <div className='toggleButton'>
             <button 
             onClick={()=>setOpen(prev=>!prev)}
-            className='w-12 h-12 sm:w-14 sm:h-14 rounded-full fixed top-16 right-4 sm:top-6 sm:left-6 bg-red-600/90 lg:blur-lg border-none cursor-pointer text-black flex items-center justify-center text-2xl z-[12]'>
+            className='w-12 h-12 sm:w-14 sm:h-14 rounded-full fixed top-16 right-4 sm:top-6 sm:left-6 bg-red-600/90 lg:blur-lg border-none cursor-pointer text-black flex items-center justify-center text-2xl z-[999]'>
                 <span className="hidden lg:block w-2 h-2 bg-white rounded-full absolute"></span>
                 {open ? <FiX /> : <FiMenu />}
             </button>

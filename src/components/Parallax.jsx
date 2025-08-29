@@ -12,6 +12,7 @@ const Parallax = ({ type }) => {
   })
 
   const yHParallax = useTransform(scrollYProgress,[0,1], ["0%","500%"])
+  
   return (
     <>
       <div

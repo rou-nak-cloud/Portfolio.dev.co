@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Parallax from './components/Parallax'
+import { Education } from './components/Education'
 
 const App = () => {
     const dotRef =  useRef(null)
@@ -45,8 +46,11 @@ const App = () => {
             <Hero />
           </div>
         </section>
-        <section id='Education'>
+        <section>
           <Parallax type='education'/>
+        </section>
+        <section id='Education' className="min-h-fit">
+          <Education />
         </section>
         <section></section>
         <section id='Projects'>
