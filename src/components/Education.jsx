@@ -26,7 +26,6 @@ export const Education = ({ data }) => {
   const headingVariants = {
     hidden: { y: -50, opacity: 0 },
     visible: { y: 0, opacity: 1, transition: { duration: 0.8, delay:0.8, ease: "easeOut" } },
-    exit:{ y:-50, opacity:0, transition:{duration:0.5, ease:"easeIn"} },
   };
 
   const leftVariants = {
@@ -42,7 +41,7 @@ export const Education = ({ data }) => {
   return (
     <div
       ref={containerRef}
-      className="relative sm:px-10 px-5 lg:px-20 h-auto mt-15 md:mt-25 mb-10 pb-10 overflow-hidden"
+      className="relative sm:px-10 px-5 lg:px-20 h-auto mt-15 md:mt-25 mb-10 pb-10 "
     >
       {/* ⭐ Background image */}
       <div className="-z-10">
@@ -58,7 +57,6 @@ export const Education = ({ data }) => {
         variants={headingVariants}
         initial="hidden"
         whileInView="visible"
-        exit='exit'
         viewport={{ once: true, amount: 0.3 }}
         className="font-bold text-3xl md:text-6xl flex justify-center bg-gradient-to-r from-red-700/90 to-purple-600 bg-clip-text text-transparent tracking-wider"
       >

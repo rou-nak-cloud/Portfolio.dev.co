@@ -75,9 +75,9 @@ const App = () => {
         <section id='Education' className="min-h-fit">
           <Education />
         </section>
-        <section>
+        <div>
           <FondThings />
-        </section>
+        </div>
         <section id='Projects'>
           <Parallax type='projects' />
         </section>
