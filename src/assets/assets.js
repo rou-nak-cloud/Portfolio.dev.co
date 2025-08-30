@@ -10,6 +10,7 @@ import scroll from './scroll.png'
 import mountains from './mountains.png'
 import planets from './planets.png'
 import stars from './stars.png'
+import people from './people.webp'
 
 const assets = {
   heroPng,
@@ -17,6 +18,7 @@ const assets = {
   mountains,
   planets,
   stars,
+  people,
 }
 export default assets
 
@@ -87,3 +89,27 @@ export const educations = [
     ]
   }
 ];
+
+export const interests = [
+  {
+    title: "Coding",
+    desc: "Building applications, and exploring new technologies. I love turning ideas into reality through clean and efficient code.",
+  },
+  {
+    title: "Traveling",
+    desc: "Exploring new places, experiencing different cultures, and meeting people from around the world keeps me inspired and open-minded.",
+  },
+  {
+    title: "Calisthenics",
+    desc: "Bodyweight training helps me stay fit, disciplined, and constantly challenge myself to grow stronger both physically and mentally.",
+  },
+  {
+    title: "Youtube",
+    desc: "Creating and consuming content that inspires, educates, and entertains. It’s a platform where creativity meets storytelling.",
+  },
+  {
+    title: "Music",
+    desc: "Creating and consuming content that inspires, educates, and entertains. It’s a platform where creativity meets storytelling.",
+  },
+]
+

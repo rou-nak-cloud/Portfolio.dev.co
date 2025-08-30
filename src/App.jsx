@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Parallax from './components/Parallax'
 import { Education } from './components/Education'
+import FondThings from './components/FondThings'
 
 const App = () => {
     const dotRef =  useRef(null)
@@ -31,7 +32,7 @@ const App = () => {
       scale.current = 1 // reset
     }
     // Attach to all text elements (p, h1–h6, span, a)
-  const textElements = document.querySelectorAll("p, h1, h2, h3, h4, h5, h6, span, a")
+  const textElements = document.querySelectorAll("p, h1, h2, h3, h4, h5, h6, span, a, button")
   textElements.forEach((el) => {
     el.addEventListener("mouseenter", handleMouseEnter)
     el.addEventListener("mouseleave", handleMouseLeave)
@@ -74,7 +75,9 @@ const App = () => {
         <section id='Education' className="min-h-fit">
           <Education />
         </section>
-        <section></section>
+        <section>
+          <FondThings />
+        </section>
         <section id='Projects'>
           <Parallax type='projects' />
         </section>
