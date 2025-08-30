@@ -104,7 +104,7 @@ export const interests = [
     desc: "Bodyweight training helps me stay fit, disciplined, and constantly challenge myself to grow stronger both physically and mentally.",
   },
   {
-    title: "Youtube",
+    title: "Watching Movies",
     desc: "Creating and consuming content that inspires, educates, and entertains. It’s a platform where creativity meets storytelling.",
   },
   {
