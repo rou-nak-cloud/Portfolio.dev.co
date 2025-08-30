@@ -82,8 +82,8 @@ const App = () => {
         <section>
           <FondThings />
         </section>
-        <section id='Projects'>
-          <Parallax type='projects' />
+        <section>
+          
         </section>
 
         {/* Mouse move animation */}

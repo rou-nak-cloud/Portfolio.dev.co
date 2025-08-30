@@ -8,5 +8,5 @@ export const TimeDisplay = () => {
     return () => clearInterval(timer);
   }, []);
 
-  return <p className='subtext'>{time.toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata' })} (IST)</p>;
+  return <p className='text-neutral-300 text-sm md:text-base text-pretty pl-7'>{time.toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata' })} (IST)</p>;
 };
