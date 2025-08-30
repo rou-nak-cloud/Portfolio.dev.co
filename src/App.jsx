@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Parallax from './components/Parallax'
 import { Education } from './components/Education'
 import FondThings from './components/FondThings'
+import AboutMe from './components/AboutMe'
 
 const App = () => {
     const dotRef =  useRef(null)
@@ -75,9 +76,12 @@ const App = () => {
         <section id='Education' className="min-h-fit">
           <Education />
         </section>
-        <div>
+        <section>
+          <AboutMe />
+        </section>
+        <section>
           <FondThings />
-        </div>
+        </section>
         <section id='Projects'>
           <Parallax type='projects' />
         </section>

@@ -1,6 +1,6 @@
 import facebook from './facebook.png'
-import instagram from './instagram.png'
-import twitter from './x.png'
+import instagram from './instagram.svg'
+import twitter from './x-social.svg'
 // import dribble from './dribble.png'
 import github from './github-white.png'
 import linkedIn from './linkedIn.png'
@@ -11,6 +11,21 @@ import mountains from './mountains.png'
 import planets from './planets.png'
 import stars from './stars.png'
 import people from './people.webp'
+import codingPov from './coding-pov.png'
+import c from './c.png'
+import cloudinary from './cloudinary.svg'
+import cPlus from './cplusplus.svg'
+import figma from './figma.png'
+import motion from './motion.png'
+import css from './css3.svg'
+import git from './git.svg'
+import html from './html5.svg'
+import javascript from './javascript.svg'
+import mongoDb from './mongodb.svg'
+import nodeJs from './nodejs.svg'
+import tailwindCss from './tailwindcss.svg'
+import vite from './vitejs.svg'
+import vsCode from './visualstudiocode.svg'
 
 const assets = {
   heroPng,
@@ -19,6 +34,21 @@ const assets = {
   planets,
   stars,
   people,
+  codingPov,
+  c,
+  cloudinary,
+  cPlus,
+  figma,
+  vite,
+  vsCode,
+  tailwindCss,
+  motion,
+  git,
+  html,
+  javascript,
+  mongoDb,
+  css,
+  nodeJs,
 }
 export default assets
 
