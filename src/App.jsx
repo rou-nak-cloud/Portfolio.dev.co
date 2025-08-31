@@ -5,6 +5,7 @@ import Parallax from './components/Parallax'
 import { Education } from './components/Education'
 import FondThings from './components/FondThings'
 import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
 
 const App = () => {
     const dotRef =  useRef(null)
@@ -82,9 +83,7 @@ const App = () => {
         <section>
           <FondThings />
         </section>
-        <section>
-          
-        </section>
+        <Projects />
 
         {/* Mouse move animation */}
           {/* custom curser outer ring */}
