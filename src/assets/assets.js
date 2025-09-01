@@ -165,22 +165,24 @@ export const interests = [
   },
 ]
 
+import chatApp2 from './projects/chat-app2.png'
+import yputubeBackend from './projects/youtube-backend.png'
+
 export const myProjects = [
   {
     id: 1,
     title: "Whispr - Real-time Chat Application",
     description:
-      "A modern real-time chat platform enabling instant messaging, built with a focus on scalability, responsiveness, and seamless communication.",
+      "A modern real-time chat platform enabling instant messaging, built with a focus on scalability, responsiveness, and seamless communication. Implemented WebSocket communication using Socket.IO and Managed user data, chat rooms, and message storage with MongoDB and Mongoose, ensuring data consistency.", 
     subDescription: [
       "Developed a real-time chat system using React for frontend and Node.js with Express for backend.",
       "Implemented WebSocket communication using Socket.IO to enable instant message delivery and typing indicators.",
       "Managed user data, chat rooms, and message storage with MongoDB and Mongoose, ensuring data consistency.",
-      "Styled the application with Tailwind CSS to create a responsive and intuitive user interface.",
       "Added features like online status, unread message notifications, and multi-user private chat handling."
     ],
     href: "", // GitHub/Live demo link when available
     logo: "",
-    image: "/assets/projects/chat-app2.png",
+    image: chatApp2,
   },
   {
     id: 2,
@@ -198,21 +200,21 @@ export const myProjects = [
     logo: "",
     image: "/assets/projects/youtube-backend.png",
   },
-  {
-    id: 3,
-    title: "Duo Atelier Website Clone",
-    description:
-      "A visually captivating and responsive website inspired by the award-winning Duo Atelier site, built for portfolio demonstration purposes.",
-    subDescription: [
-      "Recreated the Duo Atelier award-winning design using React for component structure.",
-      "Styled completely with Tailwind CSS to match the original site's modern aesthetics and responsiveness.",
-      "Ensured smooth animations, hover effects, and transitions to maintain a premium user experience.",
-      "Implemented responsive design for compatibility across devices and screen sizes."
-    ],
-    href: "https://github.com/rou-nak-cloud/Duo-Atelier-Work-Website",
-    logo: "",
-    image: "/assets/projects/duo-atelier.png",
-  },
+  // {
+  //   id: 3,
+  //   title: "Duo Atelier Website Clone",
+  //   description:
+  //     "A visually captivating and responsive website inspired by the award-winning Duo Atelier site, built for portfolio demonstration purposes.",
+  //   subDescription: [
+  //     "Recreated the Duo Atelier award-winning design using React for component structure.",
+  //     "Styled completely with Tailwind CSS to match the original site's modern aesthetics and responsiveness.",
+  //     "Ensured smooth animations, hover effects, and transitions to maintain a premium user experience.",
+  //     "Implemented responsive design for compatibility across devices and screen sizes."
+  //   ],
+  //   href: "https://github.com/rou-nak-cloud/Duo-Atelier-Work-Website",
+  //   logo: "",
+  //   image: "/assets/projects/duo-atelier.png",
+  // },
   {
     id: 4,
     title: "Ochi Website Clone",
@@ -245,23 +247,23 @@ export const myProjects = [
   logo: "",
   image: "/assets/projects/code-inspector.png",
 },
-{
-  id: 6,
-  title: "Agency UI Website",
-  description:
-    "A modern agency website with sleek UI/UX, animations, and dark/light mode support.",
-  subDescription: [
-    "Designed with modern UI principles and fully responsive across all devices.",
-    "Implemented dark/light theme toggle using Tailwind's dark variant.",
-    "Integrated functional contact form with Web3Forms to handle messages.",
-    "Smooth animations and transitions powered by Framer Motion.",
-    "Reusable components including Navbar, Hero, Services, Our Work, and Contact.",
-    "Optimized performance with Vite + TailwindCSS for fast builds and loading."
-  ],
-  href: "", // add GitHub/Live link
-  logo: "",
-  image: "/assets/projects/agency-ui.png",
-},
+// {
+//   id: 6,
+//   title: "Agency UI Website",
+//   description:
+//     "A modern agency website with sleek UI/UX, animations, and dark/light mode support.",
+//   subDescription: [
+//     "Designed with modern UI principles and fully responsive across all devices.",
+//     "Implemented dark/light theme toggle using Tailwind's dark variant.",
+//     "Integrated functional contact form with Web3Forms to handle messages.",
+//     "Smooth animations and transitions powered by Framer Motion.",
+//     "Reusable components including Navbar, Hero, Services, Our Work, and Contact.",
+//     "Optimized performance with Vite + TailwindCSS for fast builds and loading."
+//   ],
+//   href: "", // add GitHub/Live link
+//   logo: "",
+//   image: "/assets/projects/agency-ui.png",
+// },
 {
   id: 7,
   title: "Lofify - Music Streaming Platform",
