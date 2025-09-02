@@ -26,6 +26,11 @@ import nodeJs from './nodejs.svg'
 import tailwindCss from './tailwindcss.svg'
 import vite from './vitejs.svg'
 import vsCode from './visualstudiocode.svg'
+import react from './react.svg'
+
+import email from './email_icon.svg'
+import arrow from './arrow_icon.svg'
+import person from './person_icon.svg'
 
 const assets = {
   heroPng,
@@ -49,6 +54,10 @@ const assets = {
   mongoDb,
   css,
   nodeJs,
+  react,
+  email,
+  person,
+  arrow,
 }
 export default assets
 
@@ -157,7 +166,7 @@ export const interests = [
   },
   {
     title: "Watching Movies",
-    desc: "Creating and consuming content that inspires, educates, and entertains. It’s a platform where creativity meets storytelling.",
+    desc: "For me, movies are not just entertainment. Whether it’s a classic masterpiece or a thriller, I love the storytelling, the cinematography, and the reflection.",
   },
   {
     title: "Listening Music",

@@ -80,12 +80,17 @@ const AboutMe = () => {
                     containerRef={grid2ContainerRef}
                     />
                     <Card 
+                    style={{ rotate:"45deg", top:"20%", left:"19%"}}
+                    image={assets.react} 
+                    containerRef={grid2ContainerRef}
+                    />
+                    <Card 
                     style={{ rotate:"30deg", top:"76%", left:"40%"}}
                     image={assets.mongoDb} 
                     containerRef={grid2ContainerRef}
                     />
                     <Card 
-                    style={{ rotate:"30deg", top:"80%", left:"73%"}}
+                    style={{ rotate:"30deg", top:"10%", left:"83%"}}
                     image={assets.nodeJs} 
                     containerRef={grid2ContainerRef}
                     />

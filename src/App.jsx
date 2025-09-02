@@ -6,6 +6,9 @@ import { Education } from './components/Education'
 import FondThings from './components/FondThings'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+
+import {Toaster} from 'react-hot-toast'
 
 const App = () => {
     const dotRef =  useRef(null)
@@ -65,6 +68,7 @@ const App = () => {
   return (
     <>
      <div className='body bg-[#090926] text-[#d1d5db]'>
+      <Toaster />
         <section id='Homepage'>
           <Navbar />
           <div className='hero bg-gradient-to-b from-[#090926] to-[#14143c]' >
@@ -81,6 +85,9 @@ const App = () => {
           <AboutMe />
         </section>
         <Projects />
+        <section>
+          <Contact />
+        </section>
         <section>
           <FondThings />
         </section>

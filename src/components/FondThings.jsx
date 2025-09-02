@@ -88,7 +88,6 @@ import assets, { interests } from '../assets/assets'
 const FondThings = () => {
 
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const variants = {
     initial: {
@@ -112,8 +111,10 @@ const FondThings = () => {
      ref={ref}
       variants={variants}
       initial="initial" 
-       animate={isInView ? "animate" : "initial"}
-      className='Fond bg-gradient-to-b from-[#0e0e28] to-[#111132] h-auto  flex flex-col justify-between gap-20'
+      animate='animate'
+      // whileInView='animate' wont work
+      viewport={{once:true}}
+      className='Fond bg-gradient-to-b from-[#0e0e28] to-[#111132] h-auto p-8 max-sm:mt-24 flex flex-col justify-between gap-20'
     >
       {/* Top text */}
       <motion.div
