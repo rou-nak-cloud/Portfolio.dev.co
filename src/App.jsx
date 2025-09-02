@@ -9,6 +9,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 
 import {Toaster} from 'react-hot-toast'
+import Footer from './components/Footer'
 
 const App = () => {
     const dotRef =  useRef(null)
@@ -91,6 +92,7 @@ const App = () => {
         <section>
           <FondThings />
         </section>
+        <Footer />
 
         {/* Mouse move animation */}
           {/* custom curser outer ring */}
