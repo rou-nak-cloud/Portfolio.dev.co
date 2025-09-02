@@ -160,13 +160,17 @@ export const interests = [
     desc: "Creating and consuming content that inspires, educates, and entertains. It’s a platform where creativity meets storytelling.",
   },
   {
-    title: "Music",
-    desc: "Creating and consuming content that inspires, educates, and entertains. It’s a platform where creativity meets storytelling.",
+    title: "Listening Music",
+    desc: "I love to hear music during coding, it keeps me focused and makes the process more enjoyable. Music keeps me focused while coding.",
   },
 ]
 
 import chatApp2 from './projects/chat-app2.png'
-import yputubeBackend from './projects/youtube-backend.png'
+import backend from './projects/youtube-backend.png'
+import ochiSite from './projects/ochi.png'
+import codeInspector from './projects/editor.png'
+import lofify from './projects/LofifyHome.png'
+import mernAuth from './projects/MERN-home.png'
 
 export const myProjects = [
   {
@@ -188,7 +192,7 @@ export const myProjects = [
     id: 2,
     title: "YouTube Backend Clone",
     description:
-      "A backend system replicating core functionalities of YouTube including video uploads, likes, comments, and user interactions.",
+      "A backend system replicating core functionalities of YouTube including video uploads, likes, comments, and user interactions. I’m fascinated by how large platforms scale — this project let me dive into the backbone of YouTube and recreate its core features.",
     subDescription: [
       "Designed RESTful APIs using Express.js to handle user authentication, video uploads, likes, comments, and playlists.",
       "Implemented secure storage of media files using Cloudinary for both images and videos.",
@@ -198,7 +202,7 @@ export const myProjects = [
     ],
     href: "https://github.com/rou-nak-cloud/Backend-Youtube",
     logo: "",
-    image: "/assets/projects/youtube-backend.png",
+    image: backend,
   },
   // {
   //   id: 3,
@@ -219,7 +223,7 @@ export const myProjects = [
     id: 4,
     title: "Ochi Website Clone",
     description:
-      "A faithful replica of the award-winning Ochi website, designed to showcase frontend skills with modern web development practices.",
+      "A faithful replica of the award-winning Ochi website, designed to showcase frontend skills with modern web development practices. Minimal, modern, and pixel-perfect — this clone reflects my obsession with clean UI and smooth user experiences.",
     subDescription: [
       "Cloned the Ochi award-winning site design with React for component-based development.",
       "Utilized Tailwind CSS to recreate the minimalist and elegant styling of the original website.",
@@ -228,13 +232,13 @@ export const myProjects = [
     ],
     href: "https://github.com/rou-nak-cloud/Ochi_C-Website",
     logo: "",
-    image: "/assets/projects/ochi.png",
+    image: ochiSite,
   },
   {
   id: 5,
   title: "Code Inspector - AI Powered Code Review Tool",
   description:
-    "An AI-powered code review platform with real-time editor, instant AI analysis, and syntax-highlighted feedback.",
+    "An AI-powered code review platform with real-time editor, instant AI analysis, and syntax-highlighted feedback. As someone who reviews code a lot, I built an AI-powered tool to get instant insights, suggestions, and cleanups.",
   subDescription: [
     "Developed with Node.js + Express backend integrated with Google Gemini AI for code review.",
     "Frontend built using React, TailwindCSS, React-Markdown, and Highlight.js for syntax highlighting.",
@@ -245,57 +249,57 @@ export const myProjects = [
   ],
   href: "", // add GitHub/Live link
   logo: "",
-  image: "/assets/projects/code-inspector.png",
-},
-// {
-//   id: 6,
-//   title: "Agency UI Website",
-//   description:
-//     "A modern agency website with sleek UI/UX, animations, and dark/light mode support.",
-//   subDescription: [
-//     "Designed with modern UI principles and fully responsive across all devices.",
-//     "Implemented dark/light theme toggle using Tailwind's dark variant.",
-//     "Integrated functional contact form with Web3Forms to handle messages.",
-//     "Smooth animations and transitions powered by Framer Motion.",
-//     "Reusable components including Navbar, Hero, Services, Our Work, and Contact.",
-//     "Optimized performance with Vite + TailwindCSS for fast builds and loading."
-//   ],
-//   href: "", // add GitHub/Live link
-//   logo: "",
-//   image: "/assets/projects/agency-ui.png",
-// },
-{
-  id: 7,
-  title: "Lofify - Music Streaming Platform",
-  description:
-    "A full-stack music streaming app with Spotify-like UI and an admin dashboard for content management.",
-  subDescription: [
-    "🎧 User Side: Play songs with sleek Spotify-inspired UI, featured charts, playlists, and albums.",
-    "Responsive music player with play, pause, next, previous, and queue management.",
-    "Fully responsive design optimized for both desktop and mobile users.",
-    "🛠 Admin Side: Add new songs with metadata (title, artist, album, cover, audio file).",
-    "Manage albums with cover image, description, and song associations.",
-    "Built-in dashboard to upload and manage audio/image files efficiently."
-  ],
-  href: "", // add GitHub/Live link
-  logo: "",
-  image: "/assets/projects/lofify.png",
-},
-{
-  id: 8,
-  title: "Account Verification System",
-  description:
-    "A secure full-stack authentication system with OTP-based verification, password reset, and JWT authentication.",
-  subDescription: [
-    "User registration with OTP-based email verification.",
-    "Login and protected routes using JWT tokens with secure cookie handling.",
-    "Integrated nodemailer to send OTPs for account verification and password reset.",
-    "Password reset system with verified OTP confirmation.",
-    "Environment variable-driven secure setup for scalability and safety."
-  ],
-  href: "", // add GitHub/Live link
-  logo: "",
-  image: "/assets/projects/auth-system.png",
-}
+  image: codeInspector,
+  },
+  // {
+  //   id: 6,
+  //   title: "Agency UI Website",
+  //   description:
+  //     "A modern agency website with sleek UI/UX, animations, and dark/light mode support.",
+  //   subDescription: [
+  //     "Designed with modern UI principles and fully responsive across all devices.",
+  //     "Implemented dark/light theme toggle using Tailwind's dark variant.",
+  //     "Integrated functional contact form with Web3Forms to handle messages.",
+  //     "Smooth animations and transitions powered by Framer Motion.",
+  //     "Reusable components including Navbar, Hero, Services, Our Work, and Contact.",
+  //     "Optimized performance with Vite + TailwindCSS for fast builds and loading."
+  //   ],
+  //   href: "", // add GitHub/Live link
+  //   logo: "",
+  //   image: "/assets/projects/agency-ui.png",
+  // },
+  {
+    id: 7,
+    title: "Lofify - Music Streaming Platform",
+    description:
+      "A full-stack music streaming app with Spotify-like UI and an admin dashboard for content management. I love listening to music while coding — so I built Lofify, a platform to enjoy and manage songs with a Spotify-like vibe.",
+    subDescription: [
+      "🎧 User Side: Play songs with sleek Spotify-inspired UI, featured charts, playlists, and albums.",
+      "Responsive music player with play, pause, next, previous, and queue management.",
+      "Fully responsive design optimized for both desktop and mobile users.",
+      "🛠 Admin Side: Add new songs with metadata (title, artist, album, cover, audio file).",
+      "Manage albums with cover image, description, and song associations.",
+      "Built-in dashboard to upload and manage audio/image files efficiently."
+    ],
+    href: "", // add GitHub/Live link
+    logo: "",
+    image: lofify,
+  },
+  {
+    id: 8,
+    title: "Account Verification System",
+    description:
+      "A secure full-stack authentication system with OTP-based verification, password reset, and JWT authentication. Security excites me — this project let me explore email OTPs, JWTs, and building a reliable authentication system.",
+    subDescription: [
+      "User registration with OTP-based email verification.",
+      "Login and protected routes using JWT tokens with secure cookie handling.",
+      "Integrated nodemailer to send OTPs for account verification and password reset.",
+      "Password reset system with verified OTP confirmation.",
+      "Environment variable-driven secure setup for scalability and safety."
+    ],
+    href: "", // add GitHub/Live link
+    logo: "",
+    image: mernAuth,
+  }
 ];
 

@@ -22,12 +22,12 @@ const Projects = () => {
             <section ref={projectRef}>
                 <div className='projectContainer flex items-center justify-center w-[100%] h-[100%]'>
                     <div className='wrapper max-w-[1266px] h-screen m-auto flex items-center justify-center gap-12'>
-                        <div className='imageContainer flex-1 h-1/2 flex items-center justify-center shadow-2xl shadow-purple-900/40 transition-all duration-200 ease-in-out hover:scale-108'>
+                        <div className='imageContainer flex-1 flex items-center justify-center shadow-2xl shadow-purple-900/40 transition-all duration-200 ease-in-out hover:scale-108'>
                          <img src={image} alt="chatAppImage" className='object-cover rounded-2xl' />
                         </div>
                     <div className='textContainer flex-1 flex flex-col gap-4'>
                         <h2 className='text-5xl'>{title}</h2>
-                        <p className='text-md text-gray-400'>{description}</p>
+                        <p className='text-lg text-gray-400'>{description}</p>
                         <div className='buttons bg-gradient-to-br from-purple-800 to-red-800 p-2 rounded-xl flex items-center justify-around mt-7'>
                             <a href={href} className='text-white font-bold text-lg tracking-wider px-8 py-2 rounded-xl transition-all duration-300 ease-in-out hover:bg-red-900/60 hover:scale-106'>See Live</a>
                             <a href={logo} className='text-white font-light text-lg tracking-wider px-8 py-2 rounded-xl transition-all duration-300 ease-in-out hover:bg-purple-900/60 hover:scale-103'>See Github project</a>
