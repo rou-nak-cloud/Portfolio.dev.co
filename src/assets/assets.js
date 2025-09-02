@@ -132,7 +132,7 @@ export const educations = [
   {
     title: "Bachelor of Technology (B.Tech) in Electronics and Telecommunication Engineering",
     institution: "Guru Nanak Institute of Technology, Kolkata",
-    date: "2021-Present",
+    date: "2021-2025",
     contents: [
       "Pursuing a degree in Electronics and Telecommunication Engineering with coursework in Data Structures, Algorithms, Web Development, and Database Management System",
       "Worked on personal and academic projects using technologies like React, Node.js, MongoDB, and Three.js.",

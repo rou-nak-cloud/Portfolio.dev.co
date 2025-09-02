@@ -13,7 +13,7 @@ const AboutMe = () => {
     <section className="px-4 sm:px-6 md:px-10 lg:px-20 min-h-screen mt-10 md:mt-20">
   <h2 className="font-bold text-2xl sm:text-3xl md:text-5xl text-center 
   bg-gradient-to-r from-purple-600 to-red-600 bg-clip-text text-transparent">
-    About Me
+    About Me - My Coding Bucket
   </h2>
 
   <div className="grid grid-cols-1 gap-6 md:grid-cols-6 md:auto-rows-[18rem] mt-8 sm:mt-12">

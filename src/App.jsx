@@ -80,10 +80,10 @@ const App = () => {
         <section>
           <AboutMe />
         </section>
+        <Projects />
         <section>
           <FondThings />
         </section>
-        <Projects />
 
         {/* Mouse move animation */}
           {/* custom curser outer ring */}

@@ -41,10 +41,10 @@ const Projects = () => {
   return (
     <div ref={ref} 
     className='projects '>
-        <div className='progress sticky top-0 left-0 pt-18 text-center text-5xl text-purple-700'>
-            <h1 className='pb-2'>Featured Projects</h1>
+        <div className='progress sticky top-0 left-0 pt-12 pb-6 text-center text-6xl tracking-widest font-light bg-gradient-to-br from-red-900/50 text-purple-700 rounded-4xl'>
+            <h1 className='pb-2'>Featured Project<span className='text-red-600/80 font-light'>s</span></h1>
             <motion.div style={{scaleX}}
-             className='progressBar h-1 rounded-full bg-gradient-to-r from-purple-800 to-red-700'></motion.div>
+             className='progressBar h-1 pt-1 rounded-full bg-gradient-to-r from-purple-800 to-red-700'></motion.div>
         </div>
         {myProjects.map((project) => (
             <Single key={project.id} myProjects={project} />
