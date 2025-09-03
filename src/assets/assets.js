@@ -87,27 +87,27 @@ export const navLogos = [
     {
     id: "github",
     icon: github,
-    link: "https://github.com/yourusername",
+    link: "https://github.com/rou-nak-cloud",
   },
   {
     id: "facebook",
     icon: facebook,
-    link: "https://www.facebook.com/yourprofile", 
+    link: "https://www.facebook.com/profile.php?id=100072176811605", 
   },
   {
     id: "instagram",
     icon: instagram,
-    link: "https://www.instagram.com/yourprofile",
+    link: "https://www.instagram.com/rounakbakshi19",
   },
-//   {
-//     id: "twitter",
-//     icon: twitter,
-//     link: "https://twitter.com/yourprofile",
-//   },
+  // {
+  //   id: "twitter",
+  //   icon: twitter,
+  //   link: "https://twitter.com/yourprofile",
+  // },
   {
     id: "linkedIn",
     icon: linkedIn,
-    link: "https://linkedin.com/in/yourprofile",
+    link: "https://www.linkedin.com/in/rounak-bakshi/",
   },
 ];
 
@@ -193,8 +193,8 @@ export const myProjects = [
       "Managed user data, chat rooms, and message storage with MongoDB and Mongoose, ensuring data consistency.",
       "Added features like online status, unread message notifications, and multi-user private chat handling."
     ],
-    href: "", // GitHub/Live demo link when available
-    logo: "",
+    href: "https://github.com/rou-nak-cloud/Whispr", // GitHub/Live demo link when available
+    logo: "https://whispr-a-chat-app.onrender.com",
     image: chatApp2,
   },
   {
@@ -210,7 +210,7 @@ export const myProjects = [
       "Supported scalable features like pagination, search, and content filtering to mimic YouTube's backend capabilities."
     ],
     href: "https://github.com/rou-nak-cloud/Backend-Youtube",
-    logo: "",
+    logo: "https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj",
     image: backend,
   },
   // {
@@ -240,7 +240,7 @@ export const myProjects = [
       "Focused on fine UI details like typography, spacing, and interactive elements to achieve a premium look and feel."
     ],
     href: "https://github.com/rou-nak-cloud/Ochi_C-Website",
-    logo: "",
+    logo: "https://ochi-website.onrender.com",
     image: ochiSite,
   },
   {
@@ -256,8 +256,8 @@ export const myProjects = [
     "Markdown support for structured AI responses with styled syntax highlighting.",
     "Smooth user experience with loader animations, welcome screen, and responsive design."
   ],
-  href: "", // add GitHub/Live link
-  logo: "",
+  href: "https://github.com/rou-nak-cloud/Code-Inspector", // add GitHub/Live link
+  logo: "https://codecheck-ai-co.onrender.com",
   image: codeInspector,
   },
   // {
@@ -290,7 +290,7 @@ export const myProjects = [
       "Manage albums with cover image, description, and song associations.",
       "Built-in dashboard to upload and manage audio/image files efficiently."
     ],
-    href: "", // add GitHub/Live link
+    href: "https://github.com/rou-nak-cloud/Lofiify", // add GitHub/Live link
     logo: "",
     image: lofify,
   },
@@ -306,7 +306,7 @@ export const myProjects = [
       "Password reset system with verified OTP confirmation.",
       "Environment variable-driven secure setup for scalability and safety."
     ],
-    href: "", // add GitHub/Live link
+    href: "https://github.com/rou-nak-cloud/Account-Verification", // add GitHub/Live link
     logo: "",
     image: mernAuth,
   }
