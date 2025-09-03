@@ -29,7 +29,7 @@ const bigTextVariants = {
         x:0,
     },
     animate:{
-        x:"-250%",
+        x:"-560%",
         transition:{
             repeat:Infinity,
             repeatType:"mirror",
@@ -50,7 +50,7 @@ const Hero = () => {
       className='textContainer h-[50%] md:h-screen w-full md:w-[600px] flex flex-col justify-center gap-3 sm:gap-9 z-[9] text-center md:text-left'>
       
       <motion.h2 variants={textVariants} className='text-xl sm:text-2xl md:text-3xl tracking-[6px] sm:tracking-[9px] font-semibold bg-gradient-to-r from-red-500 to-purple-600 bg-clip-text text-transparent'>
-        ROUNAK BAKSHI
+        ROUNAK <span className='font-light'>BAKSHI</span>
       </motion.h2>
 
       <motion.h1 variants={textVariants} className='text-3xl sm:text-5xl md:text-7xl leading-none'>
@@ -79,7 +79,7 @@ const Hero = () => {
 
   <motion.div
     variants={bigTextVariants} initial="initial" animate="animate"
-    className='slidingText absolute w-full md:w-full font-semibold text-[15vh] sm:text-[25vh] md:text-[35vh] lg:text-[50vh] bottom-[-7px] md:bottom-[-90px] whitespace-nowrap opacity-10 select-none text-center md:text-left'>
+    className='slidingText absolute w-full md:w-1/2 font-semibold text-[15vh] sm:text-[25vh] md:text-[35vh] lg:text-[50vh] bottom-[-7px] md:bottom-[-90px] whitespace-nowrap opacity-10 select-none text-center md:text-left'>
     Full Stack Coder <span className=''>&</span> Calisthenic Athlete
   </motion.div>
 

@@ -33,7 +33,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="contact h-[100%] flex flex-col items-center justify-center lg:flex-row gap-12 lg:gap-20 px-6 sm:px-12 lg:px-24 xl:px-32 py-16">
+    <div id='Contact' className="contact h-[100%] flex flex-col items-center justify-center lg:flex-row gap-12 lg:gap-20 px-6 sm:px-12 lg:px-24 xl:px-32 py-16">
       
      {/* LEFT SIDE - Text */}
         <div className="textContainer flex-1 lg:flex-[0.7] max-sm:mt-12">

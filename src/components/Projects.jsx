@@ -30,7 +30,7 @@ const Projects = () => {
 
         const { title, description, subDescription, href, logo, image } = myProjects;
         return(
-            <section>
+            <section id='Projects'>
                 <div className='projectContainer flex items-center justify-center w-full h-full px-4 sm:px-6 md:px-8'>
                     <div className='wrapper max-w-[1266px] min-h-screen m-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 py-8'>
                     

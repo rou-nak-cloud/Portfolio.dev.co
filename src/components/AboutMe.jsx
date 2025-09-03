@@ -10,7 +10,7 @@ import assets from '../assets/assets';
 const AboutMe = () => {
      const grid2ContainerRef = useRef();
   return (
-    <section className="px-4 sm:px-6 md:px-10 lg:px-20 min-h-screen mt-10 md:mt-20">
+    <section id='AboutMe' className="px-4 sm:px-6 md:px-10 lg:px-20 min-h-screen mt-10 md:mt-20">
   <h2 className="font-bold text-2xl sm:text-3xl md:text-5xl text-center 
   bg-gradient-to-r from-purple-600 to-red-600 bg-clip-text text-transparent">
     About Me - My Coding Bucket
@@ -28,12 +28,11 @@ const AboutMe = () => {
         md:scale-[3.1] md:left-1/2 md:-translate-x-1/2 lg:scale-[2.8]"
       />
       <div className="z-10 text-sm sm:text-base">
-        <p className="mt-2 mb-2 text-lg sm:text-xl font-mono">
+        <p className="mt-2 mb-2 text-lg sm:text-xl font-mono text-left">
           Hi, I'm Rounak <span className="text-red-500">Bakshi.</span>
         </p>
         <p className="text-slate-50 font-bold text-sm sm:text-base leading-relaxed pb-3">
-          Over the last 2 years, I developed my frontend dev skills and the last 3–6 months 
-          backend skills to make dynamic UIs and ready for Job Application.
+          Over the past 3 years,I’m learning to become a Full-Stack Developer with experience in HTML, CSS, JavaScript, React, Node.js, and MongoDB. I enjoy crafting modern UIs using frameworks like Aceternity UI and DaisyUI, focusing on speed and design. Passionate about building engaging frontend projects, always eager to learn, and quick to solve challenges along the way.
         </p>
         <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo-950" />
       </div>
@@ -141,7 +140,7 @@ const AboutMe = () => {
           Open to remote work across India.
         </p>
         <p className="text-xs sm:text-sm md:text-base italic text-slate-400 mt-2">
-          "I enjoy coding in quiet early mornings and late nights!"
+          "Late nights, early mornings — I enjoy every moment of building and improving." <br /> Building sleek UIs and scalable apps is my way of blending logic with creativity.
         </p>
       </div>
     </div>

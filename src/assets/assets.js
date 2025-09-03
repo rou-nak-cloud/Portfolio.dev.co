@@ -193,8 +193,8 @@ export const myProjects = [
       "Managed user data, chat rooms, and message storage with MongoDB and Mongoose, ensuring data consistency.",
       "Added features like online status, unread message notifications, and multi-user private chat handling."
     ],
-    href: "https://github.com/rou-nak-cloud/Whispr", // GitHub/Live demo link when available
-    logo: "https://whispr-a-chat-app.onrender.com",
+    href: "https://whispr-a-chat-app.onrender.com", // GitHub/Live demo link when available
+    logo: "https://github.com/rou-nak-cloud/Whispr",
     image: chatApp2,
   },
   {
@@ -209,8 +209,8 @@ export const myProjects = [
       "Handled video processing, streaming, and error management to simulate a production-level backend environment.",
       "Supported scalable features like pagination, search, and content filtering to mimic YouTube's backend capabilities."
     ],
-    href: "https://github.com/rou-nak-cloud/Backend-Youtube",
-    logo: "https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj",
+    href: "https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj",
+    logo: "https://github.com/rou-nak-cloud/Backend-Youtube",
     image: backend,
   },
   // {
@@ -239,8 +239,8 @@ export const myProjects = [
       "Ensured pixel-perfect layout, smooth transitions, and high responsiveness across all devices.",
       "Focused on fine UI details like typography, spacing, and interactive elements to achieve a premium look and feel."
     ],
-    href: "https://github.com/rou-nak-cloud/Ochi_C-Website",
-    logo: "https://ochi-website.onrender.com",
+    href: "https://ochi-website.onrender.com",
+    logo: "https://github.com/rou-nak-cloud/Ochi_C-Website",
     image: ochiSite,
   },
   {
@@ -256,8 +256,8 @@ export const myProjects = [
     "Markdown support for structured AI responses with styled syntax highlighting.",
     "Smooth user experience with loader animations, welcome screen, and responsive design."
   ],
-  href: "https://github.com/rou-nak-cloud/Code-Inspector", // add GitHub/Live link
-  logo: "https://codecheck-ai-co.onrender.com",
+  href: "https://codecheck-ai-co.onrender.com", // add GitHub/Live link
+  logo: "https://github.com/rou-nak-cloud/Code-Inspector",
   image: codeInspector,
   },
   // {
@@ -290,8 +290,8 @@ export const myProjects = [
       "Manage albums with cover image, description, and song associations.",
       "Built-in dashboard to upload and manage audio/image files efficiently."
     ],
-    href: "https://github.com/rou-nak-cloud/Lofiify", // add GitHub/Live link
-    logo: "",
+    href: "", // add GitHub/Live link
+    logo: "https://github.com/rou-nak-cloud/Lofiify",
     image: lofify,
   },
   {
@@ -306,8 +306,8 @@ export const myProjects = [
       "Password reset system with verified OTP confirmation.",
       "Environment variable-driven secure setup for scalability and safety."
     ],
-    href: "https://github.com/rou-nak-cloud/Account-Verification", // add GitHub/Live link
-    logo: "",
+    href: "", // add GitHub/Live link
+    logo: "https://github.com/rou-nak-cloud/Account-Verification",
     image: mernAuth,
   }
 ];
