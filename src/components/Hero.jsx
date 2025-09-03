@@ -53,7 +53,7 @@ const Hero = () => {
         ROUNAK BAKSHI
       </motion.h2>
 
-      <motion.h1 variants={textVariants} className='text-3xl sm:text-5xl md:text-7xl leading-tight'>
+      <motion.h1 variants={textVariants} className='text-3xl sm:text-5xl md:text-7xl leading-none'>
         Web developer <span className='text-purple-800/90 cursor-grab'>&</span> Electronics engineer
         <span variants={textVariants} className='text-red-500'>.</span>
       </motion.h1>
@@ -79,7 +79,7 @@ const Hero = () => {
 
   <motion.div
     variants={bigTextVariants} initial="initial" animate="animate"
-    className='slidingText absolute w-full md:w-1/2 font-semibold text-[15vh] sm:text-[25vh] md:text-[35vh] lg:text-[50vh] bottom-[-7px] md:bottom-[-90px] whitespace-nowrap opacity-10 select-none text-center md:text-left'>
+    className='slidingText absolute w-full md:w-full font-semibold text-[15vh] sm:text-[25vh] md:text-[35vh] lg:text-[50vh] bottom-[-7px] md:bottom-[-90px] whitespace-nowrap opacity-10 select-none text-center md:text-left'>
     Full Stack Coder <span className=''>&</span> Calisthenic Athlete
   </motion.div>
 
