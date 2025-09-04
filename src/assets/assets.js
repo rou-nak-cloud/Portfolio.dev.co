@@ -61,15 +61,15 @@ const assets = {
 }
 export default assets
 
-import chatApp from './Projects/chat-app.png'
-import duoAtelier from "./Projects/duo-atelier.png";
-import editor from "./Projects/editor.png";
-import lightMode from "./Projects/light-mode.png";
-import lofifyHome from "./Projects/lofifyHome.png";
-import mernHome from "./Projects/MERN-home.png";
-import ochi from "./Projects/ochi.png";
-import cocktail from "./Projects/cocktail.png";
-import youtubeBackend from "./Projects/youtube-backend.png";
+import chatApp from './projects/chat-app.png'
+import duoAtelier from "./projects/duo-atelier.png";
+import editor from "./projects/editor.png";
+import lightMode from "./projects/light-mode.png";
+import lofifyHome from "./projects/LofifyHome.png";
+import mernHome from "./projects/MERN-home.png";
+import ochi from "./projects/ochi.png";
+import cocktail from "./projects/cocktail.png";
+import youtubeBackend from "./projects/youtube-backend.png";
 
 export const projectImages =[
   chatApp,
