@@ -61,7 +61,7 @@ const assets = {
 }
 export default assets
 
-import chatApp from './projects/chat-app.png'
+import chatApp from './projects/chat-app.png';
 import duoAtelier from "./projects/duo-atelier.png";
 import editor from "./projects/editor.png";
 import lightMode from "./projects/light-mode.png";
