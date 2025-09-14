@@ -176,10 +176,10 @@ export const interests = [
 
 import chatApp2 from './projects/chat-app2.png'
 import backend from './projects/youtube-backend.png'
-import ochiSite from './projects/ochi.png'
+import ochi from './projects/ochi.png'
 import codeInspector from './projects/editor.png'
-import lofify from './projects/LofifyHome.png'
-import mernAuth from './projects/MERN-home.png'
+import lofifyHome from './projects/lofify-home.png'
+import mernHome from './projects/mern-home.png'
 
 export const myProjects = [
   {
@@ -292,7 +292,7 @@ export const myProjects = [
     ],
     href: "", // add GitHub/Live link
     logo: "https://github.com/rou-nak-cloud/Lofiify",
-    image: lofify,
+    image: lofifyHome,
   },
   {
     id: 8,
@@ -308,7 +308,7 @@ export const myProjects = [
     ],
     href: "", // add GitHub/Live link
     logo: "https://github.com/rou-nak-cloud/Account-Verification",
-    image: mernAuth,
+    image: mernHome,
   }
 ];
 
