@@ -65,8 +65,8 @@ import chatApp from './projects/chat-app.png';
 import duoAtelier from "./projects/duo-atelier.png";
 import editor from "./projects/editor.png";
 import lightMode from "./projects/light-mode.png";
-import lofifyHome from "./projects/LofifyHome.png";
-import mernHome from "./projects/MERN-home.png";
+import lofifyHome from "./projects/lofify-home.png"; // fixed lowercase
+import mernHome from "./projects/mern-home.png";   // fixed lowercase
 import ochi from "./projects/ochi.png";
 import cocktail from "./projects/cocktail.png";
 import youtubeBackend from "./projects/youtube-backend.png";
