@@ -1,4 +1,4 @@
-# 🌐 Portfolio v2  
+# 🌐 Portfolio 
 
 A modern, responsive **developer portfolio** built with **React + Vite + Tailwind CSS**, showcasing my projects, skills, and journey as a Full-Stack Developer.  
 
