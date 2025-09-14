@@ -176,10 +176,10 @@ export const interests = [
 
 import chatApp2 from './projects/chat-app2.png'
 import backend from './projects/youtube-backend.png'
-import ochi from './projects/ochi.png'
+// import ochi from './projects/ochi.png'
 import codeInspector from './projects/editor.png'
-import lofifyHome from './projects/lofify-home.png'
-import mernHome from './projects/mern-home.png'
+// import lofifyHome from './projects/lofify-home.png'
+// import mernHome from './projects/mern-home.png'
 
 export const myProjects = [
   {
