@@ -241,7 +241,7 @@ export const myProjects = [
     ],
     href: "https://ochi-website.onrender.com",
     logo: "https://github.com/rou-nak-cloud/Ochi_C-Website",
-    image: ochiSite,
+    image: ochi,
   },
   {
   id: 5,
