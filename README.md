@@ -2,7 +2,8 @@
 
 A modern, responsive **developer portfolio** built with **React + Vite + Tailwind CSS**, showcasing my projects, skills, and journey as a Full-Stack Developer.  
 
-# View Live [https://portfolio-dev-co.vercel.app/]
+## 🚀 Live Demo  
+🔗 **[View Portfolio](https://portfolio-dev-co.vercel.app/)**
 
 ## ✨ Features  
 - ⚡ Fast and optimized with **Vite**  
